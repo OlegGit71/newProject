@@ -1,3 +1,9 @@
+<?php
+  require_once 'config/connect.php';
+ // $tasks = mysqli_query($connect, "SELECT * FROM `tasks`");
+  //$tasks = mysqli_fetch_all($tasks);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +17,7 @@
 <body>
     <div class="feedback">
         <div class="container">
-            <h2>Регистрация</h2>
+            <h1>Регистрация</h1>
             <p>Введите данные для регистрации.</p>
 
             <form method="post" action="/librusers/reg.php">
